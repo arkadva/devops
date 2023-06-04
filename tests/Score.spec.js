@@ -3,6 +3,7 @@ import { expect } from 'chai';
 /*
 * For some reason the react parser doesn't let you import from index.js.
 */
+
 export function validateScores(scores, setScoreErrors) {
   const errors = scores.map((score) => {
     if (score < 0 || score > 100) {
